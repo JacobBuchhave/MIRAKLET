@@ -1,5 +1,7 @@
 {
   "functions": {
-    "api/syncMembers.js": {} // No schedule for now, just testing structure
+    "api/syncMembers.js": {
+      "schedule": "0 * * * *" // Runs at the top of every hour
+    }
   }
 }
