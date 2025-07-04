@@ -1,5 +1,5 @@
 {
-  "name": "your-circle-sync-project",
+  "name": "circle-webflow",
   "version": "1.0.0",
   "description": "Syncs Circle members to Webflow CMS using Vercel scheduled functions.",
   "main": "api/syncMembers.js",
