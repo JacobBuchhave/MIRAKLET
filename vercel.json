@@ -1,0 +1,7 @@
+{
+  "functions": {
+    "api/syncMembers.js": { // Adjust path if your file is elsewhere, e.g., "index.js"
+      "schedule": "0 * * * *" // Example: Run every hour. Adjust cron syntax as needed.
+    }
+  }
+}

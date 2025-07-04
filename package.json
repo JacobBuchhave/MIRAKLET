@@ -1,0 +1,16 @@
+{
+  "name": "your-circle-sync-project",
+  "version": "1.0.0",
+  "description": "Syncs Circle members to Webflow CMS using Vercel scheduled functions.",
+  "main": "api/sync-circle-members.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sync": "node api/sync-circle-members.js" // Optional: for local testing
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.x.x" // Use the latest axios version
+  }
+}
