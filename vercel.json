@@ -1,5 +1,7 @@
 {
   "functions": {
-    "api/syncMembers.js": {}
+    "api/syncMembers.js": {
+      "schedule": "0 * * * *" // This schedules the function to run every hour
+    }
   }
 }
